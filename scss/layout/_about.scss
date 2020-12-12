@@ -1,0 +1,56 @@
+.about {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 4%,
+      rgba(237, 234, 236, 0) 23%
+    ),
+    url(../images/man2.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+
+  &__wrapper {
+    width: 66%;
+    transform: translateX(25%);
+    padding-top: 75px;
+  }
+
+  &__title {
+    font-family: var(--font);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #fffcfc;
+  }
+
+  &__text {
+    line-height: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__img {
+    margin-left: 180px;
+    width: 230px;
+    height: 230px;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1.9px;
+    color: #fff2b0;
+    border: 2px solid #fff2b0;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.3s;
+    z-index: 1;
+
+    &:hover {
+      color: violet;
+      border-color: violet;
+    }
+  }
+}

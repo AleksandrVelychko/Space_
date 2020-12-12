@@ -1,0 +1,18 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+
+  &__text {
+    display: flex;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #cecece;
+    transition: all 0.3s;
+
+    &:hover {
+      color: rgb(3, 156, 72);
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.logo__link {
+  display: block;
+  @include size(35px);
+  margin-right: 95px;
+}
+
+.logo__img {
+  transition: 0.3s;
+  &:hover {
+    transform: scale(1.2);
+  }
+}

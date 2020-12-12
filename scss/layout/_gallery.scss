@@ -1,0 +1,41 @@
+.gallery {
+  background: url(../images/gallery.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+
+  &__info {
+    width: 50%;
+    padding-top: 80px;
+  }
+
+  &__title {
+    font-family: var(--font);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 5.6px;
+    margin-bottom: 30px;
+    color: #fffcfc;
+  }
+
+  &__text {
+    margin-bottom: 50px;
+  }
+
+  &__link {
+    border: 2px solid #fff2b0;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1.9px;
+    color: #fff2b0;
+    padding: 5px;
+    transition: all 0.3s;
+
+    &:hover {
+      color: violet;
+      border-color: violet;
+    }
+  }
+}

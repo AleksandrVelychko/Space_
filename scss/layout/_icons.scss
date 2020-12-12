@@ -1,0 +1,14 @@
+.icon {
+  @include size(20px);
+  fill: #fff;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+    fill: rgb(3, 156, 72);
+  }
+
+  &--mod {
+    margin-right: 10px;
+  }
+}

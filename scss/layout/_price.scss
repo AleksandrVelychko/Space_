@@ -1,0 +1,39 @@
+.price {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 11%,
+      rgba(237, 234, 236, 0) 50%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(237, 234, 236, 0) 9%),
+    linear-gradient(180deg, rgba(0, 0, 0, 1) 1%, rgba(237, 234, 236, 0) 9%),
+    url(../images/background-3.jpg) no-repeat center;
+  background-size: cover;
+  padding: 100px 0;
+  position: relative;
+
+  &__title {
+    font-family: var(--font);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 5.6px;
+    margin-bottom: 30px;
+    color: #fffcfc;
+  }
+
+  &__text {
+    color: #fff2b0;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  &__img {
+    position: absolute;
+    bottom: -100px;
+  }
+}
+
+.rellax {
+  position: absolute;
+}

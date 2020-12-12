@@ -1,0 +1,51 @@
+.footer {
+  background: url(../images/footer.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+
+  &__link {
+    display: block;
+    @include size(35px);
+    margin: 0 auto;
+  }
+
+  &__img {
+    transition: 0.3s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &__title {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: #fff2b0;
+  }
+
+  &__text1 {
+    text-align: right;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  &__text2 {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  &__icon {
+    @include size(15px);
+  }
+}
+
+.link {
+  margin-right: 10px;
+}

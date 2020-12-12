@@ -1,0 +1,23 @@
+.menu {
+  display: flex;
+
+  &__item {
+    margin-right: 35px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s;
+
+    &:hover {
+      border-bottom-color: violet;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s;
+
+    &:hover {
+      color: violet;
+    }
+  }
+}

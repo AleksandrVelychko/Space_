@@ -1,0 +1,31 @@
+.button {
+  text-decoration: none;
+  color: #fff2b0;
+  padding: 10px 35px;
+  border: 1px solid #fff2b0;
+  transition: 0.3s;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 30%;
+    margin-left: 23%;
+    bottom: 10px;
+    background: currentColor;
+    width: 0;
+    height: 1px;
+    transition: all 0.3s;
+  }
+  &:hover::after {
+    width: 55%;
+    left: 0;
+    color: rgba(255, 251, 0, 0.8);
+  }
+
+  &:hover {
+    border: 1px solid rgba(255, 251, 0, 0.8);
+    color: rgba(255, 251, 0, 0.8);
+    box-shadow: 0 0 10px rgba(255, 251, 0, 0.8);
+  }
+}
