@@ -119,13 +119,8 @@ body {
 
 .menu__item {
   margin-right: 35px;
-  border-bottom: 2px solid transparent;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
-
-.menu__item:hover {
-  border-bottom-color: violet;
 }
 
 .menu__link {
@@ -136,7 +131,7 @@ body {
 }
 
 .menu__link:hover {
-  color: violet;
+  color: rgba(255, 251, 0, 0.8);
 }
 
 .button {

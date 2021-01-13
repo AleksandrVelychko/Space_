@@ -3,12 +3,7 @@
 
   &__item {
     margin-right: 35px;
-    border-bottom: 2px solid transparent;
     transition: all 0.3s;
-
-    &:hover {
-      border-bottom-color: violet;
-    }
   }
 
   &__link {
@@ -17,7 +12,7 @@
     transition: all 0.3s;
 
     &:hover {
-      color: violet;
+      color: rgba(255, 251, 0, 0.8);
     }
   }
 }
